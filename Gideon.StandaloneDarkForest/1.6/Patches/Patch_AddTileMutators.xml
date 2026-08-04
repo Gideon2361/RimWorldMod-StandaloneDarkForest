@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/TileMutatorDef[@Name="BaseLakeMut"]</xpath>
+        <match Class="PatchOperationSequence">
+		    <operations>
+                <!-- Natural -->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/TileMutatorDef[@Name="BaseLakeMut"]/biomeWhitelist</xpath>
+                    <value>
+                        <li>DankPyon_DarkForest</li>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/TileMutatorDef[defName="DryLake"]/biomeWhitelist</xpath>
+                    <value>
+                        <li>DankPyon_DarkForest</li>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/TileMutatorDef[defName="HotSprings"]/biomeWhitelist</xpath>
+                    <value>
+                        <li>DankPyon_DarkForest</li>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/TileMutatorDef[defName="Plateau"]/biomeWhitelist</xpath>
+                    <value>
+                        <li>DankPyon_DarkForest</li>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/TileMutatorDef[defName="Cliffs"]/biomeWhitelist</xpath>
+                    <value>
+                        <li>DankPyon_DarkForest</li>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/TileMutatorDef[defName="Basin"]/biomeWhitelist</xpath>
+                    <value>
+                        <li>DankPyon_DarkForest</li>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/TileMutatorDef[defName="TerraformingScar"]/biomeWhitelist</xpath>
+                    <value>
+                        <li>DankPyon_DarkForest</li>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/TileMutatorDef[defName="Fertile"]/biomeWhitelist</xpath>
+                    <value>
+                        <li>DankPyon_DarkForest</li>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/TileMutatorDef[defName="Muddy"]/biomeWhitelist</xpath>
+                    <value>
+                        <li>DankPyon_DarkForest</li>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/TileMutatorDef[defName="MixedBiome"]/biomeWhitelist</xpath>
+                    <value>
+                        <li>DankPyon_DarkForest</li>
+                    </value>
+                </li>
+
+                <!-- Modifiers -->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/TileMutatorDef[defName="PlantGrove"]/biomeWhitelist</xpath>
+                    <value>
+                        <li>DankPyon_DarkForest</li>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/TileMutatorDef[defName="WildPlants"]/biomeWhitelist</xpath>
+                    <value>
+                        <li>DankPyon_DarkForest</li>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/TileMutatorDef[defName="ArcheanTrees"]/biomeWhitelist</xpath>
+                    <value>
+                        <li>DankPyon_DarkForest</li>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/TileMutatorDef[defName="FoggyMutator"]/biomeWhitelist</xpath>
+                    <value>
+                        <li>DankPyon_DarkForest</li>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/TileMutatorDef[defName="SunnyMutator"]/biomeBlacklist</xpath>
+                    <value>
+                        <li>DankPyon_DarkForest</li>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/TileMutatorDef[defName="WetClimate"]/biomeWhitelist</xpath>
+                    <value>
+                        <li>DankPyon_DarkForest</li>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/TileMutatorDef[defName="WindyMutator"]/biomeWhitelist</xpath>
+                    <value>
+                        <li>DankPyon_DarkForest</li>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/TileMutatorDef[defName="Pollution_Increased"]/biomeBlacklist</xpath>
+                    <value>
+                        <li>DankPyon_DarkForest</li>
+                    </value>
+                </li>
+
+                <!-- Ancient Structures -->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/TileMutatorDef[@Name="AncientStructureMutBase"]/biomeWhitelist</xpath>
+                    <value>
+                        <li>DankPyon_DarkForest</li>
+                    </value>
+                </li>
+
+                <!-- Man-made -->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/TileMutatorDef[@Name="BaseAncientVentMut"]/biomeWhitelist</xpath>
+                    <value>
+                        <li>DankPyon_DarkForest</li>
+                    </value>
+                </li>
+
+		    </operations>
+        </match>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="LeatherBase">
+		<defName>DankPyon_Leather_Rox</defName>
+		<label>Rox Leather</label>
+		<description>The fabled leather of a rox, made from skinning one of the mighty beasts. Though somewhat rough in its raw form, none can deny its incredible insulating capabilities due to the sheer density of rox hairs. That same density as well as innate composition makes it surprisingly flame- retardent, preventing oxygen from reaching any smoldering embers on the fur. That said, it is a heavy material to work with.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Leather</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(80,75,72)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>14.0</MarketValue>
+			<StuffPower_Armor_Sharp>2.20</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.40</StuffPower_Armor_Blunt>
+			<StuffPower_Insulation_Cold>34</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>22</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<color>(80,75,72)</color>
+			<commonality>0.0025</commonality>
+			<statFactors>
+				<MaxHitPoints>2.0</MaxHitPoints>
+				<Beauty>6</Beauty>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+	<!--========== Wool ============-->
+	<ThingDef ParentName="WoolBase">
+		<defName>DankPyon_WoolRox</defName>
+		<label>rox wool</label>
+		<description>Thick, coarse and provides very good insulation. Rox wool clothes can keep the body warm even in very cold conditions.</description>
+		<statBases>
+			<StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+		</statBases>
+		<graphicData>
+			<color>(80,75,72)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(80,75,72)</color>
+		</stuffProps>
+	</ThingDef>
+
+</Defs>
