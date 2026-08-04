@@ -7,7 +7,7 @@
 		<li>1.6</li>
     </supportedVersions>
 	<packageId>DankPyon.Medieval.DarkForest</packageId>
-	<modVersion IgnoreIfNoMatchingField="True">1.6.4543.9359.224628</modVersion>
+	<modVersion IgnoreIfNoMatchingField="True">1.6.4871.13920</modVersion>
 	<loadAfter>
 		<li>brrainz.harmony</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>

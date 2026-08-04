@@ -73,7 +73,6 @@
 		<defName>DankPyon_GreatIter</defName>
 		<label>great Iter</label>
 		<description>The smallest of giant trees, iters are distinguished by a thick foliage and an abundance of viscous, sour fruits. During particularly scorching summers they start to form a new leaf terrace, hence iter is commonly used as a symbol of thermophilia and heat protection.</description>
-		<!--<thingClass>Plant</thingClass>-->
 		<minifiedDef IsNull="True" />
 		<graphicData>
 			<texPath>Plants/GreatIter</texPath>
